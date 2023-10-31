@@ -1,0 +1,90 @@
+*{
+    margin-top: 0;
+    padding: 0;
+    border: 0;
+}
+body{
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #1a7ef0;
+}
+.Pantalla{
+    user-select: none;
+}
+.Pantalla .cronometro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    height: 100px;
+    background-color: #2ed0ec;
+    border: none;
+    box-shadow: 0px 0px 8px 5px #2ed0ec;
+    border-radius: 2rem;
+    padding: 0;
+}
+.botonIniciar{
+    background-color: rgb(8, 172, 184);
+    border-radius: 0.9rem;
+    height: 40px;
+    width: 100px;
+    border: none;
+    font-size: 1.2rem;
+    color: white;
+    cursor: pointer;
+    box-shadow: 3px 4px 3px 0px #0ce2d7;
+}
+.botonDetener{
+    margin-right: 3%;
+    margin-left: 3%;
+    background-color:  rgb(8, 172, 184);
+    border-radius: 0.9rem;
+    height: 40px;
+    width: 100px;
+    border: none;
+    font-size: 1.2rem;
+    color: white;
+    cursor: pointer;
+    box-shadow: 3px 4px 3px 0px #0ce2d7;
+}
+.botonReiniciar{
+    background-color:  rgb(8, 172, 184);
+    border-radius: 0.9rem;
+    height: 40px;
+    width: 100px;
+    border: none;
+    font-size: 1.2rem;
+    color: white;
+    cursor: pointer;
+    box-shadow: 3px 4px 3px 0px #0ce2d7;
+}
+.container-botones{
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Pantalla .cronometro span{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 550;
+    color: #0b6c85;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0px;
+    padding: 0;
+}
+.Pantalla .cronometro .separador-mili{
+    color: #adf5e3;
+}
+.Pantalla .cronometro .milisegundo{
+    color: #adf5e3;
+}
+.botonIniciar.on{
+    pointer-events: none;
+    opacity: 0.7;
+}
